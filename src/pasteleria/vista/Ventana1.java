@@ -124,7 +124,7 @@ public class Ventana1 extends javax.swing.JFrame {
 
     private void btnVerDatoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnVerDatoActionPerformed
         System.out.println("btn ver dato funciona");
-        Ventana3 ventana3 = new Ventana3();
+        Ventana2 ventana3 = new Ventana2();
         ventana3.setVisible(true);
     }//GEN-LAST:event_btnVerDatoActionPerformed
 
@@ -133,8 +133,9 @@ public class Ventana1 extends javax.swing.JFrame {
     }//GEN-LAST:event_btnSalirActionPerformed
 
     private void btnCargaDatoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCargaDatoActionPerformed
-        Ventana2 ventana2 = new Ventana2();
-        ventana2.setVisible(true);
+        Ventana2 v2 = new Ventana2();
+        v2.setVisible(true);
+        v2.setLocationRelativeTo(null);
         System.out.println("btn caragar dato esta funcionando");
     }//GEN-LAST:event_btnCargaDatoActionPerformed
 
